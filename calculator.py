@@ -36,10 +36,10 @@ def operations(user_selection,a,b):
     elif user_selection == 5:
        return  rem(a,b)
     else:
-        print("You entered an invalid selection, the available operations are: 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division/n and 5 for remainder")
+        print("You entered an invalid selection, the available operations are: 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division,\n and 5 for remainder")
         return None
 
-user_selection = int(input("Welcome to the calculator program. Please select an available operation. They are: 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division/n and 5 for remainder: "))
+user_selection = int(input("Welcome to the calculator program. Please select an available operation. They are: 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division,\n and 5 for remainder: "))
 a = int(input("Enter  your first value: "))
 b = int(input("Enter your second value: "))
 
